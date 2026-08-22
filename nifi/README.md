@@ -13,6 +13,7 @@ https://github.com/tm8step/BigData/blob/5ec74a6f4996cc416fee6bc0cd18c3c4b30420c2
 I chose to work with the dataset 'Breast Cancer Wisconsin (Diagnostic)'. It has a CC BY 4.0 license, which allows sharing and adaptation when properly cited. The data has 569 instances of breast cancer data with patient ID, diagnosis, and 30 features. There are no null values, and the diagnoses are split into 357 benign instances and 212 malignant instances.  The features are 10 distinct features of cell masses with a mean, standard error and a worst mean (mean of the 3 largest) for each feature, totaling 30 measurements.
 
 Source: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+
 Citation:  Wolberg, W., Mangasarian, O., Street, N., & Street, W. (1993). Breast Cancer Wisconsin (Diagnostic) [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5DW2B.
 
 ## Flow Design
