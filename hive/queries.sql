@@ -4,7 +4,7 @@ SELECT COUNT(diagnosis)
 FROM WiscCancerData 
 WHERE diagnosis LIKE 'M';
 
-Results:  212
+-- Results:  212
 
 
 -- Query Example 2:  Finding the Average of a column
@@ -12,4 +12,4 @@ Results:  212
 SELECT AVG(`Radius Mean`)
 FROM WiscCancerData;
 
-Results: 14.1272
+-- Results: 14.1272
