@@ -8,7 +8,17 @@ Apache Hive provides the structured SQL layer between HDFS storage and the Spark
 
 **Table name:** `WiscCancerData`
 
-The data consists of ID Numbers, a diagnosis ('M' or 'B' for malignant or benign), and 10 cell growth measurements measured in 3 different ways each, for a total of 30 features.  There are 569 items with no null values.
+The data consists of ID Numbers, a diagnosis ('M' or 'B' for malignant or benign), and 10 cell nucleus measurements measured in 3 different ways each, for a total of 30 features.  There are 569 items with no null values.
+
+
+| Column Name| Mean (`_ Mean`)| Standard Error (`_ SE`)| Mean of Worst 3 (`_ Worst`)|
+|---| Data Type| Data Type| Data Type|
+| `ID Number` | INT| | |
+| `Diagnosis` | STRING| | |
+| `Radius` | FLOAT| FLOAT| FLOAT|
+| `Texture` | FLOAT| FLOAT| FLOAT|
+|`Perimeter`| FLOAT| FLOAT| FLOAT|
+|`Area`| FLOAT| FLOAT| FLOAT|
 
 `ID Number` INT,
 
