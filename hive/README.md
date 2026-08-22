@@ -42,7 +42,7 @@ The data consists of ID Numbers, a diagnosis ('M' or 'B' for malignant or benign
 
 ## Data Load Verification
 
-Explain how you confirmed that the data was successfully loaded into the managed Hive table.
+This screen shows the data successfully loaded with the first 5 results for each column.
 
 ![Hive Load Results](screenshots/hive-load-results.png)
 
