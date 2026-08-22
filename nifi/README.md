@@ -23,9 +23,9 @@ Describe the important processors used in the final NiFi flow and the role each 
 
 | Processor / Process Group | Role in the Flow |
 |---|---|
-| [Processor name] | [What it does] |
-| [Processor name] | [What it does] |
-| [Processor name] | [What it does] |
+| Download File | Downloads the file from the Github repository and starts it in the Nifi data Flow|
+| Update File Name | Renames the filename to the given filename in the parameter context |
+| Write File to HDFS | Writes the data to the HDFS folder given in the parameter context.  In this case, '/tmp' |
 
 Explain how data moves from the source URL through NiFi and into HDFS.
 
