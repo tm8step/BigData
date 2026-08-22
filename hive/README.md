@@ -10,79 +10,30 @@ Apache Hive provides the structured SQL layer between HDFS storage and the Spark
 
 The data consists of ID Numbers, a diagnosis ('M' or 'B' for malignant or benign), and 10 cell nucleus measurements measured in 3 different ways each, for a total of 30 features.  There are 569 items with no null values.
 
-
-| Column Name | Mean (`_ Mean`) | Standard Error (`_ SE`) | Mean of Worst 3 (`_ Worst`) |
-|---| Data Type| Data Type| Data Type|
-| `ID Number` | INT| | |
-| `Diagnosis` | STRING| | |
-| `Radius` | FLOAT| FLOAT| FLOAT|
-| `Texture` | FLOAT| FLOAT| FLOAT|
-|`Perimeter`| FLOAT| FLOAT| FLOAT|
-|`Area`| FLOAT| FLOAT| FLOAT|
-
 `ID Number` INT,
 
 `Diagnosis` STRING,
 
-`Radius Mean` FLOAT,
+`Radius Mean`, `Radius SE`,  `Radius Worst` - FLOAT
 
-`Texture Mean` FLOAT,
+`Texture Mean`, `Texture SE`, `Texture Worst` - FLOAT,
 
-`Perimeter Mean` FLOAT,
+`Perimeter Mean`, `Perimeter SE`,  `Perimeter Worst` - FLOAT,
 
-`Area Mean` FLOAT,
+`Area Mean`, `Area SE`, `Area Worst` -  FLOAT,
 
-`Smoothness Mean` FLOAT,
+`Smoothness Mean`, `Smoothness SE`, `Smoothness Worst` - FLOAT,
 
-`Compactness Mean` FLOAT,
+`Compactness Mean`, `Compactness SE`, `Compactness Worst` -  FLOAT,
 
-`Concavity Mean` FLOAT,
+`Concavity Mean`, `Concavity SE`, `Concavity Worst` - FLOAT,
 
-`Concave Points Mean` FLOAT,
+`Concave Points Mean`, `Concave Points SE`, `Concave Points Worst` -  FLOAT,
 
-`Symmetry Mean` FLOAT,
+`Symmetry Mean`, `Symmetry SE`, `Symmetry Worst` -  FLOAT,
 
-`Fractal Dimension Mean` FLOAT,
+`Fractal Dimension Mean`, `Fractal Dimension SE`, `Fractal Dimension Worst` -  FLOAT,
 
-`Radius SE` FLOAT,
-
-`Texture SE` FLOAT,
-
-`Perimeter SE` FLOAT,
-
-`Area SE` FLOAT,
-
-`Smoothness SE` FLOAT,
-
-`Compactness SE` FLOAT,
-
-`Concavity SE` FLOAT,
-
-`Concave Points SE` FLOAT,
-
-`Symmetry SE` FLOAT,
-
-`Fractal Dimension SE` FLOAT,
-
-`Radius Worst` FLOAT,
-
-`Texture Worst` FLOAT,
-
-`Perimeter Worst` FLOAT,
-
-`Area Worst` FLOAT,
-
-`Smoothness Worst` FLOAT,
-
-`Compactness Worst` FLOAT,
-
-`Concavity Worst` FLOAT,
-
-`Concave Points Worst` FLOAT,
-
-`Symmetry Worst` FLOAT,
-
-`Fractal Dimension Worst` FLOAT
 
 ## SQL Files
 
