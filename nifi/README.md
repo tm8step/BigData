@@ -8,6 +8,7 @@ Apache NiFi provides the ingestion and orchestration layer for this project. The
 
 **Dataset:** Breast Cancer Wisonsin (Diagnostic)
 **GitHub direct URL:** 
+
 https://raw.githubusercontent.com/tm8step/BigData/refs/heads/main/sample-data/WiscBreastCancerData.csv
 
 I chose to work with the dataset 'Breast Cancer Wisconsin (Diagnostic)'. It has a CC BY 4.0 license, which allows sharing and adaptation when properly cited. The data has 569 instances of breast cancer data with patient ID, diagnosis, and 30 features. There are no null values, and the diagnoses are split into 357 benign instances and 212 malignant instances.  The features are 10 distinct features of cell masses with a mean, standard error and a worst mean (mean of the 3 largest) for each feature, totaling 30 measurements.
