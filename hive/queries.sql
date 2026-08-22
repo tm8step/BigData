@@ -1,9 +1,14 @@
--- DSC 650 Portfolio Starter
--- Replace these comments with representative Hive queries from your final project.
---
--- Choose queries that demonstrate meaningful work rather than every query you ran.
+-- Query Example 1 - Counting all Instances of a Malignant Diagnosis
 
--- Example:
--- SELECT ...
--- FROM ...
--- WHERE ...;
+SELECT COUNT(diagnosis)
+FROM WiscCancerData 
+WHERE diagnosis LIKE 'M';
+
+Results:  212
+
+
+-- Query Example 2:  Finding the Average of a column
+SELECT AVG(`Radius Mean`)
+FROM WiscCancerData;
+
+Results: 14.1272
