@@ -11,36 +11,67 @@ Apache Hive provides the structured SQL layer between HDFS storage and the Spark
 The data consists of ID Numbers, a diagnosis ('M' or 'B' for malignant or benign), and 10 cell growth measurements measured in 3 different ways each, for a total of 30 features.  There are 569 items with no null values.
 
 `ID Number` INT,
+
 `Diagnosis` STRING,
+
 `Radius Mean` FLOAT,
+
 `Texture Mean` FLOAT,
+
 `Perimeter Mean` FLOAT,
+
 `Area Mean` FLOAT,
+
 `Smoothness Mean` FLOAT,
+
 `Compactness Mean` FLOAT,
+
 `Concavity Mean` FLOAT,
+
 `Concave Points Mean` FLOAT,
+
 `Symmetry Mean` FLOAT,
+
 `Fractal Dimension Mean` FLOAT,
+
 `Radius SE` FLOAT,
+
 `Texture SE` FLOAT,
+
 `Perimeter SE` FLOAT,
+
 `Area SE` FLOAT,
+
 `Smoothness SE` FLOAT,
+
 `Compactness SE` FLOAT,
+
 `Concavity SE` FLOAT,
+
 `Concave Points SE` FLOAT,
+
 `Symmetry SE` FLOAT,
+
 `Fractal Dimension SE` FLOAT,
+
 `Radius Worst` FLOAT,
+
 `Texture Worst` FLOAT,
+
 `Perimeter Worst` FLOAT,
+
 `Area Worst` FLOAT,
+
 `Smoothness Worst` FLOAT,
+
 `Compactness Worst` FLOAT,
+
 `Concavity Worst` FLOAT,
+
 `Concave Points Worst` FLOAT,
+
 `Symmetry Worst` FLOAT,
+
 `Fractal Dimension Worst` FLOAT
 
 ## SQL Files
