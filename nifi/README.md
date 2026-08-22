@@ -23,11 +23,11 @@ Citation:  Wolberg, W., Mangasarian, O., Street, N., & Street, W. (1993). Breast
 |---|---|
 | Download File | Downloads the file from the Github repository and starts it in the Nifi data Flow|
 | Update File Name | Renames the filename to the given filename in the parameter context |
-| Write File to HDFS | Writes the data to the HDFS folder given in the parameter context.  In this case, the folder is '/tmp' |
+| Write File to HDFS | Writes the data to the HDFS folder given in the parameter context.  In this case, the folder is '/data' |
 
 Explain how data moves from the source URL through NiFi and into HDFS.
 
-Data is downloaded into the Nifi dataflow from the github source.  It is then processed to have it's filename updated, and written to the HDFS in the /tmp folder.
+Data is downloaded into the Nifi dataflow from the github source.  It is then processed to have it's filename updated, and written to the HDFS in the /data folder.
 
 ## HDFS Destination
 
