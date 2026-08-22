@@ -49,4 +49,4 @@ Explain where NiFi writes the dataset and how the destination is used by the nex
 
 ![HDFS Verification](screenshots/hdfs-ingestion-verification.png)
 
-The HDFS screenshot should show the `hdfs dfs -ls` output confirming that the project dataset was successfully written into HDFS.
+The HDFS screenshot shows the `hdfs dfs -ls` output confirming that the project dataset was successfully written into HDFS.  It also shows the beginning of the data in the file, confirming the correct data was loaded.
