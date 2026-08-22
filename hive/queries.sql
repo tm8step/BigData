@@ -8,6 +8,7 @@ Results:  212
 
 
 -- Query Example 2:  Finding the Average of a column
+  
 SELECT AVG(`Radius Mean`)
 FROM WiscCancerData;
 
