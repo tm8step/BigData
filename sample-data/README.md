@@ -15,7 +15,7 @@ Do not use a course-provided example dataset for the final project.
 
 # Data Set Info
 
-I chose to work with the dataset 'Breast Cancer Wisconsin (Diagnostic)'.  It has a CC BY 4.0 license, which allows sharing and adaptation when properly cited.  The data has 569 instances of breast cancer data with patient ID, diagnosis, and 30 features.  There are no null values, and the diagnoses are split into 357 benign instances and 212 malignant instances.  The data is available in both .csv and .xlsx formats.
+I chose to work with the dataset 'Breast Cancer Wisconsin (Diagnostic)'.  It has a CC BY 4.0 license, which allows sharing and adaptation when properly cited.  The data has 569 instances of breast cancer data with patient ID, diagnosis, and 30 features.  There are no null values, and the diagnoses are split into 357 benign instances and 212 malignant instances.
 
 # Citation
 Wolberg, W., Mangasarian, O., Street, N., & Street, W. (1993). Breast Cancer Wisconsin (Diagnostic) [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5DW2B.
