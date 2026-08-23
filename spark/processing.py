@@ -146,6 +146,9 @@ def main():
     rdd = spark.sparkContext.parallelize(data)
     rdd.foreachPartition(write_to_hbase_partition)
 
+    output_path = 'hdfs://BigData/spark'
+    rdd.saveAsTextFile(output_path)
+
     # Step 9: Stop the Spark session
     spark.stop()
 
