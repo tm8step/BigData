@@ -8,11 +8,12 @@ The HBase table is created before the Spark job runs, verified with an empty sca
 
 ## Table Design
 
-**Table name:** `[Enter HBase table name]`  
+**Table name:** `CancerDataHB`  
 **Row key:** `[Describe the row key]`  
-**Column family/families:** `[Enter column family names]`
+**Column family/families:** `cf`
 
 Explain why the selected row key and column family design are appropriate for the model metrics being stored.
+I chose a single column family, 'cf', because the data size is quite small and increasing the column families unnecessarily increases computation and resources required. 
 
 ## HBase Commands
 
