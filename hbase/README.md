@@ -9,10 +9,13 @@ The HBase table is created before the Spark job runs, verified with an empty sca
 ## Table Design
 
 **Table name:** `CancerDataHB`  
-**Row key:** `[Describe the row key]`  
+**Row key:** `[last 4 ID ####]:[Diagnosis M/B]:[Radiius Mean in Format ##.##]`  
 **Column family/families:** `cf`
 
 Explain why the selected row key and column family design are appropriate for the model metrics being stored.
+
+The row key includes the last 4 ID digits, the diagnosis result and the radius mean.  This is unique enough so that data shouldn't be mixed together and provides a good way to sort the data.  An example from the data would be '5715:M:13.17'
+
 I chose a single column family, 'cf', because the data size is quite small and increasing the column families unnecessarily increases computation and resources required. 
 
 ## HBase Commands
