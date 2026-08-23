@@ -4,12 +4,6 @@ import happybase
 from pyspark.ml.classification import LogisticRegression
 from pyspark.ml.evaluation import BinaryClassificationEvaluator, MulticlassClassificationEvaluator
 
-from pyspark.sql import SparkSession
-from pyspark.ml.feature import VectorAssembler
-import happybase
-from pyspark.ml.classification import LogisticRegression
-from pyspark.ml.evaluation import BinaryClassificationEvaluator, MulticlassClassificationEvaluator
-
 def main():
 
     # Step 1: Create a Spark session
