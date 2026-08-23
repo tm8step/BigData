@@ -12,10 +12,12 @@ Spark execution is submitted through **YARN**.
 
 ## Dataset
 
-**Dataset name:** [Enter dataset name]  
-**GitHub direct URL:** [Enter direct/raw dataset URL]
+**Dataset name:** [WiscBreastCancerData.csv]  
+**GitHub direct URL:** [https://raw.githubusercontent.com/tm8step/BigData/refs/heads/main/sample-data/WiscBreastCancerData.csv]
 
 Briefly explain what the dataset contains and why it is appropriate for the selected Spark MLlib workflow.
+
+The dataset contains 569 entries of cancer cell data, with a diagnosis of whether it is malignant or benign and 10 cell nucleus measurements, each measured 3 different ways, for a total of 30 features.
 
 ## Environment Setup
 
