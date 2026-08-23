@@ -4,6 +4,13 @@ import happybase
 from pyspark.ml.classification import LogisticRegression
 from pyspark.ml.evaluation import BinaryClassificationEvaluator, MulticlassClassificationEvaluator
 
+from pyspark.sql import SparkSession
+from pyspark.ml.feature import VectorAssembler
+import happybase
+from pyspark.ml.classification import LogisticRegression
+from pyspark.ml.evaluation import BinaryClassificationEvaluator, MulticlassClassificationEvaluator
+
+def main():
 
 # Step 1: Create a Spark session
 spark = SparkSession.builder.appName("MLlib GradesML Prediction").enableHiveSupport().getOrCreate()
@@ -148,6 +155,5 @@ rdd.foreachPartition(write_to_hbase_partition)
 # Step 9: Stop the Spark session
 spark.stop()
 
-
-
-
+if __name__ == "__main__":
+    main()
