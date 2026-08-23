@@ -25,13 +25,21 @@ Examples may include:
 
 ## MLlib Algorithm
 
-**Algorithm:** `[Enter algorithm]`
+**Algorithm:** `[Logistic Regression]`
 
 Explain:
 
-- why this algorithm was appropriate for the selected dataset;
+- why this algorithm was appropriate for the selected dataset
+
+Logistic Regression was appropriate because I wanted to classify the data into benign or malignant.
+
 - what prediction or modeling task it performs;
+
+
+
 - which features and target/label are used.
+
+The target is whether the cells are malignant or benign, and the features are 10 measurements of the cell nucleus, with 3 statistical characteristics of each (mean, standard error and Mean of Worst 3).  10 measurements wtih 3 characteristics each totals 30 features.
 
 ## Training & Evaluation
 
