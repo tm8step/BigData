@@ -68,6 +68,7 @@ Document the exact `spark-submit` command used to submit the PySpark application
 Briefly describe the successful execution and any important log or output information.
 
 ![Spark Submit Output](screenshots/spark-submit-output.png)
+![Spark Submit Log](screenshots/spark-submit-log.png)
 
 ## HBase Output
 
