@@ -8,3 +8,12 @@
 #   scan ...
 #
 # Add brief comments so a reviewer understands what each group of commands demonstrates.
+
+
+# Code to create table with column family 'cf'
+
+create 'CancerDataHB', 'cf'
+
+# Code to verify that created table is empty
+
+scan 'CancerDataHB'
