@@ -28,6 +28,8 @@ The commands used to create and inspect the table are stored in:
 
 Explain how the initial empty scan confirms that the target table exists before Spark writes any metrics.
 
+The initial scan shows that there are 0 rows in the newly created table, so the table is empty with no data.
+
 ![Empty HBase Scan](screenshots/hbase-empty-scan.png)
 
 ## Metrics Written by Spark
