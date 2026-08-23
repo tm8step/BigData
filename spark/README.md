@@ -6,13 +6,13 @@ Apache Spark MLlib provides the distributed processing and machine learning laye
 
 ## Hive Input
 
-**Hive table:** `[Enter Hive table name]`
+**Hive table:** `[WiscCancerData]`
 
-Explain what data Spark reads from Hive and which fields are used by the machine learning workflow.
+Hive reads 569 rows of cancer data, with an ID, diagnosis and 30 feature fields describing statistical measurements of cell nuclei.
 
 ## Data Preparation & Transformations
 
-Describe the important preprocessing or transformation steps performed before model training.
+I renamed the columns from the original table to denote each feature, particularly whether the feature was a mean, a standard error measurement or a mean of the worst 3.  I added the postfixes '_ Mean', '_ SE' and '_ Worst' for each.
 
 Examples may include:
 
